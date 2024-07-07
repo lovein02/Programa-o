@@ -3,13 +3,17 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif
 }
+img {
+    width: 350px;   
+}
 header {
-    font-size: 45px;
+    padding: 10px;
+    text-align: center;
 }
 
 ul {
     list-style: none;
-    background: #22438c;
+    background: #0357c5;
     text-align: center;
 }
 
@@ -24,6 +28,7 @@ ul li a {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 ul li ul.dropdown li {
@@ -40,6 +45,7 @@ ul li ul.dropdown {
 
 ul li a:hover {
     background: #112c66;
+    color: rgb(229, 255, 0)
 }
 ul li:hover ul.dropdown {
     display: block;
